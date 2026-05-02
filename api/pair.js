@@ -12,7 +12,7 @@ export default async function handler(req, res) {
 
     try {
         // ⚡ Aapke VPS Bot ka Live Link (Jo aapne verify kiya hai)
-        const botUrl = `http://185.212.128.56:3001/api/getcode?number=${number}`;
+        const botUrl = `http://185.212.128.56:25651/api/getcode?number=${number}`;
         
         console.log(`Fetching code for: ${number} from VPS...`);
         
